@@ -20,6 +20,16 @@ public class Main {
         car1.setPower(1900);
         car.setYearofmanufact("2019");
         car1.setYearofmanufact("2025");
-
+      System.out.prilntln( car.getName);
+        System.out.println(car1.getName);
+        System.out.println(transmission.getName);
+        System.out.println(transmission. getWear_and_tear);
+        System.out.println(wheels.getName);
+        System.out.println(whells.getFraction_force);
+            System.out.println(wheels.getSize);
+            System.out.println(car.getPower);
+        System.out.println(car1.getPower);
+        System.out.println(car.getYearofmanufact);
+        System.out.println(car1.getYearofmanufact)
     }
 }
