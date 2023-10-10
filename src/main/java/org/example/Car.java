@@ -2,48 +2,13 @@ package org.example;
 
 public class Car {
     private String name;
-    private  class Transmission{
-        public int getWear_and_tear() {
-            return wear_and_tear;
-        }
-
-        public void setWear_and_tear(int wear_and_tear) {
-            this.wear_and_tear = wear_and_tear;
-        }
-
-        private int wear_and_tear;
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        private String name;
+    private  Transmission transmission;
+        private Motor motor
     }
-    private class Motor{
-        public String getName() {
-            return name;
-        }
+   
 
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        private String name;
-
-        public int getPower() {
-            return power;
-        }
-
-        public void setPower(int power) {
-            this.power = power;
-        }
-
-        private int power;
-    };
+      
+    
     private  class Bodywork{
         public String getName() {
             return name;
