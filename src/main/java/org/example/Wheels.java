@@ -40,6 +40,8 @@ public class Wheels {
     public void setName(String name) {
         this.name = name;
     }
-
+    public int getPower(){
+        return size * friction_force;
+    }
 
 }
