@@ -22,6 +22,8 @@ public class Bodywork {
     public void setSize(int size) {
         this.size = size;
     }
-
+    public int getPower(){
+        return size
+    }
 
 }
