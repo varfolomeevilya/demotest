@@ -9,9 +9,7 @@ public class Car {
     private int power;
     private Wheels wheels
 
-    public int getPower() {
-        return power;
-    } 
+   
     public Car(){
         this.name=" formyla";
         this.power=123;
@@ -21,7 +19,9 @@ public class Car {
         this.name=name;
         this.power=power;
     }
-   
+    public int getPower() {
+        return motor.getPower + bodywork.getPower + transmission.getPower + wheels.getPower;
+    } 
    
     public void setPower(int power) {
         this.power = power;
